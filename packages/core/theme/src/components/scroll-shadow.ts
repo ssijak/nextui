@@ -26,7 +26,7 @@ const horizontalShadow = [
  * </div>
  */
 const scrollShadow = tv({
-  base: [],
+  base: ["overscroll-contain"],
   variants: {
     orientation: {
       vertical: ["overflow-y-auto", ...verticalShadow],
